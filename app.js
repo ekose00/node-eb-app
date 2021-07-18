@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
   res.send('Hello World! 3');
 });
 
+app.get('/test', (req, res) => {
+  res.send(`envs ${process.env}`);
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
