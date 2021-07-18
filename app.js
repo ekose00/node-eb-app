@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-  res.send(`envs ${process.env}`);
+  res.send(`envs ${JSON.stringify(process.env)}`);
 });
 
 app.listen(port, () => {
