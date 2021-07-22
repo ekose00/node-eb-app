@@ -1,6 +1,6 @@
 branch-defaults:
   main:
-    environment: dev
+    environment: prod
     group_suffix: null
 global:
   application_name: node-eb-app
