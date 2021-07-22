@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo ok",
-    "lint": "eslint src tests",
-    "lint:fix": "eslint src tests --fix"
+    "lint": "eslint app.js",
+    "lint:fix": "eslint app.js --fix"
   },
   "author": "",
   "license": "ISC",
